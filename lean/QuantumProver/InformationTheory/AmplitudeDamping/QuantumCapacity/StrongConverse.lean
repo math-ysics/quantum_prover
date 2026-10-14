@@ -1,0 +1,12 @@
+import QuantumProver.InformationTheory.AmplitudeDamping.QuantumCapacity.AdaptiveIteration
+import QuantumProver.InformationTheory.AmplitudeDamping.QuantumCapacity.ComparisonInequalities
+import QuantumProver.InformationTheory.AmplitudeDamping.QuantumCapacity.BlockComparison
+
+set_option autoImplicit false
+
+namespace QuantumProver.AmplitudeDamping.StrongConverseCorollaries
+
+theorem finiteAdaptiveStrongConverse_corollary : QuantumProver.AmplitudeDamping.FiniteModel.FiniteAdaptiveStrongConverse :=
+  QuantumProver.AmplitudeDamping.FiniteModel.finiteAdaptiveStrongConverse
+
+end QuantumProver.AmplitudeDamping.StrongConverseCorollaries

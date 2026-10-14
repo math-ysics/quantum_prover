@@ -1,0 +1,11 @@
+.lake/
+lean/.verification/
+**/__pycache__/
+**/*.aux
+**/*.log
+**/*.out
+**/*.toc
+**/*.synctex.gz
+**/build/main.pdf
+**/*.fls
+**/*.fdb_latexmk

@@ -1,0 +1,20 @@
+LLM-assisted research in quantum information and computation.
+
+| Paper | Result |
+| --- | --- |
+| [Antisymmetric Werner states](pdfs/Entanglement-cost-of-antisymmetric-Werner-states/paper.pdf) | $E_F(\alpha_d^{\otimes n})=n$ for all $d\ge2$, $n\ge1$, hence $E_C(\alpha_d)=1$ ebit. |
+| [Amplitude damping: Bell converse](pdfs/A-finite-adaptive-Bell-strong-converse-for-the-amplitude-damping-channel/paper.pdf) | A finite adaptive Bell strong converse with threshold $C_Z(p)=\log_2[1+(1-p)p^{p/(1-p)}]$, charging the initial entanglement resource. |
+| [Amplitude damping: secret key](pdfs/Finite-adaptive-secret-key-converses-for-the-amplitude-damping-channel/paper.pdf) | Finite adaptive secret-key converses with threshold $C_Z(p)$, charging the independent classical seed and retaining the complete Eve register. |
+| [Visible compression](pdfs/A-finite-ensemble-obstruction-to-Holevo-rate-visible-compression/paper.pdf) | An explicit finite ensemble has visible quantum compression rate strictly above its Holevo information, even with shared randomness and no shared entanglement; a strong converse quantifies the gap. |
+| [Finite PR-box simulation](pdfs/Finite-PR-box-simulation-of-partially-entangled-qubits/paper.pdf) | Every partially entangled pure two-qubit state admits exact simulation of all local projective measurements using finitely many binary PR boxes, Borel local wirings, and unrestricted shared randomness. |
+| [Superchannel discrimination](pdfs/Parallel-and-nested-adaptive-Stein-exponents-for-superchannel-discrimination/paper.pdf) | Parallel and nested adaptive Stein exponents coincide for finite-dimensional superchannels in the stated order of limits; fully general adaptive strategies are outside the result. |
+| [Isotropic states](pdfs/Entanglement-of-formation-for-two-isotropic-factors/paper.pdf) | Entanglement of formation is additive for two isotropic factors with arbitrary fidelities and independently chosen dimensions at least two. |
+| [Generalized equipartition](pdfs/Square-root-remainders-with-logarithmic-factors-for-generalized-quantum-equipartition/paper.pdf) | A finite-error remainder $O_\varepsilon(\sqrt n\,[\log(n+1)]^{3/2})$ under the stated tensor-closure, symmetry, and growth assumptions. |
+| [Depolarizing squashed entanglement](pdfs/Low-noise-and-boundary-asymptotics-for-depolarizing-channel-squashed-entanglement/paper.pdf) | $E_{\mathrm{sq}}(\Lambda_p)=1-(3p/8)\log_2(1/p)+O(p)$ at low noise, and quadratic decay at the entanglement-breaking boundary, over arbitrary finite squashing outputs. |
+| [Bell-edge squashed entanglement](pdfs/Squashed-entanglement-at-the-Bell-edge-and-a-fidelity-Holevo-deficit-bound/paper.pdf) | $E_{\mathrm{sq}}(\rho_c)=(c^2/2)\log_2(1/c)+O(c^2)$ as $c\downarrow0$ for the specified two-qubit family, plus a fidelity-Holevo deficit inequality. |
+| [Collision tradeoff](pdfs/Label-symmetry-is-necessary-for-the-Magniez-Zur-collision-tradeoff/paper.pdf) | A random-function collision algorithm achieves $S=O(\log N)$ and $T^2S=O(N\log\log N)$, separating unrestricted algorithms from the label-symmetric lower bound. |
+| [Conjugate degradability](pdfs/Conjugate-degradability-implies-degradability-for-support-minimal-channels-with-a-qubit-environment/paper.pdf) | Conjugate degradability implies degradability for finite-dimensional support-minimal channels with a qubit environment. |
+| [Elegant joint measurement](pdfs/One-ebit-is-necessary-and-sufficient-for-the-elegant-joint-measurement/paper.pdf) | Exactly one ebit of supplied pure-resource entanglement is necessary and sufficient under the stated multi-round LOCC model, including its approximation limits. |
+| [Clifford hierarchy](pdfs/Third-level-Clifford-families-with-unbounded-controlled-levels/paper.pdf) | Explicit level-three gates of fixed dyadic Pauli period two have controlled gates of every exact level at least five, with growing qubit count. |
+
+Code in `lean/`: [Apache-2.0](lean/LICENSE). Papers in `pdfs/` and `paper.pdf`: [CC BY 4.0](LICENSE-CC-BY-4.0).
